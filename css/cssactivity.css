@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav {
+    padding: 1rem;
+    background-color: #444444;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.logo a{
+    font-size: 1rem;
+    color: #fff;
+    text-decoration: none;
+}
+.menu{
+    display:flex;
+    list-style: none;
+    align-items: center;
+}
+.menu li{
+    margin: 0 1rem;
+}
+.menu li a{
+    color:#fff;
+    text-decoration: none;
+}
+img {
+    margin-left: 20px;
+}
+body {
+    background-color: cornsilk;
+}
+h2 {
+    font-family: cursive;
+}
+.dept {
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+.dept h2 {
+    position: absolute;
+    height: 50%;
+    top: 27%;
+    bottom: 0;
+    right: 50px;
+    border-radius: 10%;
+}
+.firstmeet
+{
+    margin-right: 30px;
+}
+.firstmeet h2 {
+    position: absolute;
+    height: 50%;
+    top: 73%;
+    bottom: 0;
+    left: 160px;
+    border-radius: 10%;
+}
+.bas {
+    position: absolute;
+    height: 50%;
+    top: 100%;
+    bottom: 0;
+    left: 25px;
+    border-radius: 10%;
+}
+.bas h2 {
+    position:absolute;
+    height: 50%;
+    top: 40%;
+    bottom: 0;
+    left: 1130px;
+    border-radius: 0%;
+    width: 1000px;
+}

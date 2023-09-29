@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: cornsilk;
+}
+h1 {
+   font-size: 40px;
+   font-family: cursive;
+}
+p {
+    font-family: cursive;
+    margin-bottom: 30px;
+}
+h2 {
+    font-family: cursive;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+nav {
+    padding: 1rem;
+    background-color: #444444;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.logo a{
+    font-size: 1rem;
+    color: #fff;
+    text-decoration: none;
+}
+.menu{
+    display:flex;
+    list-style: none;
+    align-items: center;
+}
+.menu li{
+    margin: 0 1rem;
+}
+.menu li a{
+    color:#fff;
+    text-decoration: none;
+}

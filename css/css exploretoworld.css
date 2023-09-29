@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav {
+    padding: 1rem;
+    background-color: #444444;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.logo a{
+    font-size: 1rem;
+    color: #fff;
+    text-decoration: none;
+}
+.menu{
+    display:flex;
+    list-style: none;
+    align-items: center;
+}
+.menu li{
+    margin: 0 1rem;
+}
+.menu li a{
+    color:#fff;
+    text-decoration: none;
+}
+body {
+    background-color: cornsilk;
+}
+h1 {
+    font-family: cursive;
+    margin-left: 40px;
+}.fm {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+h3 {
+    font-family: cursive;
+    margin-top: 10px;
+    margin-left: 20px;
+}
