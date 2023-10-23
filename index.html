@@ -5,11 +5,22 @@
             My CSTU Passport
         </title>
         <link rel="stylesheet" href="css/style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            @media only screen and (max-width: 768px) {
+            /* For mobile phones: */
+            [class*="col-"] {
+                width: 100%;
+            }
+            body {
+            background-color: rgb(220, 255, 222);
+        }
+        </style>
     </head>
     <center>
         <body>
             <nav>
-                <div class="logo">
+                <div class="logo col-1">
                     <a link href="index.html">My CSTU Passport</a>
                 </div>
                 <ul class="menu">
@@ -17,7 +28,7 @@
                     <li><a link href="html/Myadvisor.html">My Advisor</a></li>
                 </ul>
             </nav>
-            <div>
+            <div class="intro col-2">
                 <h1>Introduce Myself</h1>
                 <h2> My profile </h2>
              <p>
@@ -27,11 +38,14 @@
                 <b> My birthday </b>  : 29 december 2004 <br>
              </p>
             </div>
-             <img src="image/S__48996355.jpg" width="225" height="330">
+            <div class="imgvid col-3">
+            <img src="image/S__48996355.jpg" width="225" height="330">
              <h2>You can get to know me better with this video!</h2>
              <video width="250" height="365" controls>
                 <source src="video/videoboatza.mp4" type="video/mp4">  
             </video>
+            </div>
+            <div class="about col-4">
             <h2>About Me</h2>
             <p>
                My name is pakin maneerat. My nick name is Boat. I was born in 29 december 2004.<br>
@@ -41,6 +55,7 @@
                I'm graduated from petcharik demonstration school. I'm 185 cm. My favorite color is black. <br>
                Thank you.
             </p>
+            </div>
         </body>
     </center>
 </html> 
