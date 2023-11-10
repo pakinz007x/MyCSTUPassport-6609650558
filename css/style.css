@@ -47,3 +47,19 @@ nav {
     [class*="col-"] {
     width: 100%;
   }
+@media only screen and (max-width : 500px)
+  {
+      /* For mobile phone*/
+      body
+      {
+          background-color: lightgreen;
+      }
+  }
+@media only screen and (max-width : 768px) and (min-width :650px)
+    {
+        /* For tablet*/
+        body
+        {
+            background-color: lightblue;
+        }
+    }
